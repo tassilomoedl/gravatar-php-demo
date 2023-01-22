@@ -1,0 +1,1 @@
+<?php echo "<img src='https://www.gravatar.com/avatar/" . md5( strtolower( trim( htmlspecialchars($_POST['email'])  ) ) ) . "' />"; ?>
